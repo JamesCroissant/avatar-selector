@@ -1,0 +1,30 @@
+export const pricingPlans = [
+  {
+    name: "無料プラン",
+    description: "個人学習の第一歩に",
+    price: "$0",
+    features: ["1日10分の学習時間", "基本的な文法チェック", "1言語のみ学習可能"],
+    buttonText: "無料で始める",
+    buttonColor: "bg-black hover:bg-gray-800",
+    popular: false,
+  },
+  {
+    name: "プロ",
+    description: "本格的な学習者向け",
+    price: "$20",
+    features: ["無制限の学習時間", "高度な文法・発音チェック", "3言語まで学習可能", "AIネイティブとの会話練習"],
+    buttonText: "プロプランを始める",
+    buttonColor: "bg-purple-500 hover:bg-purple-400",
+    popular: true,
+  },
+  {
+    name: "プレミアム",
+    description: "ビジネス利用・上級者向け",
+    price: "$50",
+    features: ["無制限の言語学習", "ビジネス特化型AI会話練習", "専門用語・業界別コース", "優先サポート対応"],
+    buttonText: "Coming Soon!",
+    buttonColor: "bg-black hover:bg-gray-800",
+    popular: false,
+    disabled: true,
+  },
+]
